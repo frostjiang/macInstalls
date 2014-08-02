@@ -34,7 +34,7 @@ export SBT_OPTS="-Xms512M -Xmx12288M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:Ma
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 
-pip install scipy numpy nose ipython pandas scikit-learn nltk matplotlib
+pip install scipy numpy nose ipython pandas scikit-learn nltk matplotlib patsy statsmodels ggplot
 
 
 #refer to https://help.github.com/articles/generating-ssh-keys
